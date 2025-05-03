@@ -1,7 +1,6 @@
 # PyCleanText
 
 [![PyPI version](https://img.shields.io/pypi/v/PyCleanText.svg)](https://pypi.org/project/PyCleanText/)
-[![PyPI downloads](https://img.shields.io/pypi/dm/PyCleanText.svg)](https://pypi.org/project/PyCleanText/)
 [![Python version](https://img.shields.io/pypi/pyversions/PyCleanText.svg)](https://pypi.org/project/PyCleanText/)
 
 **PyCleanText** is a simple Python package designed to clean and preprocess text data. It removes unwanted noise from raw text by handling tasks like:
