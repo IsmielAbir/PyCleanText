@@ -55,9 +55,9 @@ def PyCleanText(file_path, output_file_path='cleaned_output.txt'):
         with open(output_file_path, 'w', encoding='utf-8') as file:
             file.write(cleaned_text)
         
-        return print(f"Successfully saved cleaned text to {output_file_path}")
+        print(f"Successfully saved cleaned text to {output_file_path}")
     
     except FileNotFoundError:
-        return print(f"Error: The file at {file_path} was not found.")
+        print(f"Error: The file at {file_path} was not found.")
     except Exception as e:
-        return print(f"An error occurred: {str(e)}")
+        print(f"An error occurred: {str(e)}")
